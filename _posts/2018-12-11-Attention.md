@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Attention
+title: Attention in Neural Translate Model
 ---
 ## Attention 
 

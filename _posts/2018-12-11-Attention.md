@@ -16,7 +16,7 @@ NTM 以一个句子输入，输出该句子的翻译结果的 Seq2Seq 的模型�
 
 
 <div class="img-div" markdown="0">
-    <img src="./image/2018-12-11/ntm.png" />
+    <img src="/_posts/image/2018-12-11/ntm.png" />
 </div>
 
 以输入 "我 / 是 / 学生"，输出 "I am a student" 为例。

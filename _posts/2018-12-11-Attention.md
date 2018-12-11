@@ -14,7 +14,10 @@ NTM 以一个句子输入，输出该句子的翻译结果的 Seq2Seq 的模型�
 
 该模型由 encoder 和 decoder 两层 Recurrent Neural Network(RNN) 组成。
 
-![ntm](./image/2018-12-11/ntm.png)
+
+<div class="img-div" markdown="0">
+    <img src="./image/2018-12-11/ntm.png" />
+</div>
 
 以输入 "我 / 是 / 学生"，输出 "I am a student" 为例。
 

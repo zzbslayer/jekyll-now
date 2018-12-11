@@ -14,7 +14,7 @@ NTM 以一个句子输入，输出该句子的翻译结果的 Seq2Seq 的模型�
 
 该模型由 encoder 和 decoder 两层 Recurrent Neural Network(RNN) 组成。
 
-![ntm](https://github.com/zzbslayer/zzbslayer.github.io/tree/master/_posts/image/2018-12-11/ntm.png)
+![ntm](./image/2018-12-11/ntm.png)
 
 以输入 "我 / 是 / 学生"，输出 "I am a student" 为例。
 
@@ -33,7 +33,7 @@ encoder:
 
 而是在每次翻译时对于各个 hidden state 进行加权求和输入 decoder 
 
-![attention](https://github.com/zzbslayer/zzbslayer.github.io/tree/master/_posts/image/2018-12-11/attention.png)
+![attention](./image/2018-12-11/attention.png)
 
 还是之前的例子。encoder 层处理完之后，
 
@@ -53,4 +53,4 @@ decoder:
         => "student"
 ```
 
-![attention2](https://github.com/zzbslayer/zzbslayer.github.io/tree/master/_posts/image/2018-12-11/attention2.png)
+![attention2](./image/2018-12-11/attention2.png)
